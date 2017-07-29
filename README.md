@@ -9,8 +9,9 @@ Features of Shell:
 5. redirection and piping is allowed.
 6. ctrl+d closes terminal.
 7. new inbuilt command like jobs,kjob,etc are added.
+
 Parts:
-------
+-----------------
 1. main.c ----> It is main file containing main loop of Shell.It also contains tokenization function.
 2. in_built.c ---> It contain functions for inbuilt commands(echo,pwd and cd).
 3. relhome.c ---> It contains function for converting absolute path to relative path(considering location of executable as home directory).
